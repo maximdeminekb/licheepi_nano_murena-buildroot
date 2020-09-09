@@ -9,16 +9,6 @@ This repo clone from: https://github.com/unframework/licheepi-nano-buildroot. Th
 
 There was reasonable effort to keep config files readable, e.g. here is the main Buildroot defconfig file: [configs/licheepi_nano_defconfig](configs/licheepi_nano_defconfig).
 
-## Dependencies
-
-- Vagrant (if building inside the VM)
-  - vagrant-vbguest plugin
-  - vagrant-disksize plugin
-- Ubuntu Bionic or similar (see Vagrant VM)
-- Buildroot 2020.02 (auto-downloaded by VM, otherwise see [project downloads page](https://buildroot.org/download.html))
-
-Buildroot takes care of downloading any further dependencies automatically.
-
 ## Building the Image
 
 download Buildroot and extract it into a folder.
